@@ -9,7 +9,7 @@ while (True):
         if (num > 0 and num <= 100000):
             break
         else:
-            print("Number must be bigger than 0 and smaller than 100.000!")
+            print("Number must be greater than 0 and less than 100.000!")
     except ValueError:
         print("That's not a number!")
 if num == 1:
